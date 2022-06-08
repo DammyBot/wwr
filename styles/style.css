@@ -101,6 +101,9 @@ nav a:hover {
 .home-title {
     color: black;
     margin-top: 10px;
+    font-family: 'Lora';
+    font-size: 2em;
+    color: aliceblue;
 }
 
 h4 {
@@ -149,12 +152,6 @@ footer a:hover {
 
 .logo {
     width: 80px;
-}
-
-.home-title {
-    font-family: 'Lora';
-    font-size: 2em;
-    color: aliceblue;
 }
 
 h2 {
