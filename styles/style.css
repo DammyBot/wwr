@@ -58,7 +58,6 @@ footer {
 
 body {
     background-color: #C7F9CC;
-    font-family: "PT Serif", Lato, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -105,7 +104,12 @@ nav a:hover {
 }
 
 h4 {
+    padding: 10px;
     color: black;
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 1em;
+    line-height: 1em;
 }
 
 .msg h2 {
@@ -148,13 +152,19 @@ footer a:hover {
 }
 
 .home-title {
-    font-family: "Lora";
+    font-family: 'Lora';
     font-size: 2em;
     color: aliceblue;
 }
 
 h2 {
     margin: 0;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 1em;
+    line-height: 1em;
 }
 
 #logo_link {
@@ -249,6 +259,32 @@ footer .social img {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+h1 {
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 1em;
+    line-height: 1em;
+}
+
+h3 {
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 1em;
+    line-height: 1em;
+}
+
+p {
+    font-family: 'PT Serif', Lato, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    color:white;
+    padding: 10px;
 }
 
 @media screen and (max-width: 900px) {
