@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora:ital@1&family=PT+Serif:ital@1&family=Roboto&family=Tapestry&family=Water+Brush&display=swap');
 
+/* Home Page CSS */
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -282,6 +284,122 @@ p {
     line-height: 2em;
     color:white;
     padding: 10px;
+}
+
+/* Rivers page CSS */
+.rivers_grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin: -10px auto;
+    background-color: #38A3A5;
+}
+
+.first_image {
+    grid-column: 1/5;
+    grid-row: 1/5;
+}
+
+.first_lower {
+    font-family: 'Tapestry';
+    /* font-size: smaller; */
+}
+
+.first_upper {
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+.float_image_1 {
+    width: 70%;
+    float: left;
+    transition: transform .5s;
+    box-shadow: 3px 3px 20px #6f7364;
+}
+
+.float_image_1:hover {
+    opacity: .6;
+    transform: scale(1.04);
+}
+
+.second_image {
+    grid-column: 6/11;
+    grid-row: 1/5;
+}
+
+.second_upper {
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+.second_lower {
+    font-family: 'Tapestry';
+    /* font-size: smaller; */
+}
+
+.float_image_2 {
+    width: 60%;
+    float: right;
+    transition: transform .5s;
+    box-shadow: 3px 3px 20px #6f7364;
+}
+
+.float_image_2:hover {
+    opacity: .6;
+    transform: scale(1.04);
+}
+
+.third_image {
+    grid-column: 1/5;
+    grid-row: 6/11;
+}
+
+.float_image_3 {
+    width: 65%;
+    float: left;
+    transition: transform .5s;
+    box-shadow: 3px 3px 20px #6f7364;
+}
+
+.float_image_3:hover {
+    opacity: .6;
+    transform: scale(1.04);
+}
+
+.third_upper {
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+.third_lower {
+    font-family: 'Tapestry';
+    /* font-size: smaller; */
+}
+
+.fourth_image {
+    grid-column: 6/11;
+    grid-row: 6/11;
+}
+
+.float_image_4 {
+    width: 53%;
+    float: right;
+    transition: transform .5s;
+    box-shadow: 3px 3px 20px #6f7364;
+}
+
+.float_image_4:hover {
+    opacity: .6;
+    transform: scale(1.04);
+}
+
+.fourth_upper {
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+.fourth_lower {
+    font-family: 'Tapestry';
+    /* font-size: smaller; */
 }
 
 @media screen and (max-width: 900px) {
